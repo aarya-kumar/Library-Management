@@ -40,3 +40,16 @@ button:hover {
   color: white;
   transition: 0.3s;
 }
+.third{
+  margin-left: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards{
+    width: 100%;
+    margin: 5% 5% 5% 5%;
+  }
+  .third{
+    margin-left: 5%;
+  }
+}
