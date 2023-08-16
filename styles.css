@@ -1,0 +1,42 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.cards {
+  width: 20%;
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 8%;
+  margin: 20px 20px 20px 20px;
+  box-shadow: 3px 3px 10px black;
+  padding: 20px;
+  align-items: center;
+  margin-right: 2px;
+}
+.image img {
+  margin-top: 6%;
+  margin-left: 25%;
+  padding: 5px;
+}
+.title {
+  text-align: center;
+  padding: 5px;
+}
+.des {
+  text-align: center;
+  padding: 5px;
+}
+button {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
