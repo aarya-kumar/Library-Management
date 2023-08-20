@@ -50,6 +50,7 @@ button:hover {
   color: white;
   transition: 0.3s;
 }
+<<<<<<< HEAD
 .third {
   margin-left: 15%;
   background-color: white;
@@ -64,3 +65,18 @@ button:hover {
     margin-left: 5%;
   }
 }
+=======
+.third{
+  margin-left: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards{
+    width: 100%;
+    margin: 5% 5% 5% 5%;
+  }
+  .third{
+    margin-left: 5%;
+  }
+}
+>>>>>>> 12c4494f31d9684b702bd0c1ccc8325ed36008e5
